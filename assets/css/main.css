@@ -72,6 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2690,6 +2691,16 @@ input, select, textarea {
 			padding: 0;
 		}
 
+        #not_loading {
+            font-size: 1em;
+            color: black;
+        }
+
+        #not_loading_click {
+            text-decoration: none;
+            color: white;
+        }
+
 		.wrapper.style1 {
 			background-color: #21b2a6;
 			color: #c8ece9;
@@ -3352,8 +3363,8 @@ input, select, textarea {
 		}
 
 		#xn7Music {
-			font-size: 380%;
-
+			font-size: 4em;
+			margin-bottom: 10%;
 		}
 
 			#banner p a {
@@ -3427,7 +3438,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 1024px) {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
